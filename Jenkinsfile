@@ -15,7 +15,7 @@ node {
 	stage('maven Validate') {
 	    sh 'mvn validate'
 	}
-	stage("maven test') {
+	stage('maven test') {
 	   sh 'mvn test'
 	}
 	stage('mvn compile') {
