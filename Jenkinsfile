@@ -10,7 +10,7 @@ node {
 	    sh 'git --version'
     }
 	stage('git clone') {
-	    git credentialsId: 'pushpa', url: 'https://github.com/pushpa1998r/s-1234.git'
+	    git credentialsId: 'pushpa', url: 'https://github.com/kartikeyapro/ks.git'
 	}
 	stage('maven Validate') {
 	    sh 'mvn validate'
