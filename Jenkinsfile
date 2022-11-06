@@ -21,7 +21,7 @@ node {
 	stage('mvn compile') {
 	   sh 'mvn compile'
     }
-	stage('mvn package') {
+	stage('maven package') {
 	   sh 'mvn package'
     }
 	
